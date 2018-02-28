@@ -11,9 +11,6 @@ import requests
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-
-#bot = telegram.Bot(token='251187693:AAFjWHcpWBBAQzZRuWat-vLWA6hWAouFAJo')
-
 def start(bot, update):
 	bot.sendMessage(update.message.chat_id, text="Hey there!")
 
