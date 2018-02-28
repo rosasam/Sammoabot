@@ -1,6 +1,6 @@
 # Telegram-bot token file
 token.txt
-
+.backup
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
